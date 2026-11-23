@@ -5,13 +5,13 @@ for (let i=0;i<size*size;i++) {
     const squareChild = document.createElement("div")
     squareParent.appendChild(squareChild)
 
-    squareChild.addEventListener("mouseover", function(event) {
-    event.target.style.backgroundColor = 'black';
-    
-});
+    /*squareChild.addEventListener("mouseover", function(event) {
+    event.target.style.backgroundColor = 'black'; 
+});*/
 
-    squareChild.addEventListener("mouseout", function(event) {
-    event.target.style.backgroundColor = 'white';
+
+    squareChild.addEventListener("mousedown", function(event) {
+    event.target.style.backgroundColor = 'black';
     
 });
 }

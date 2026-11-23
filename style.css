@@ -7,7 +7,7 @@
 }
 
 .squareParent > div {
-    flex: 0 0 calc(100% / 16);   /*exactly 1/16th of the width*/
+    flex: 0 0 calc(100% / 17);   /*exactly 1/16th of the width*/
     box-sizing: border-box;      /* so borders don't push cells to the next row */
     border: 2px solid #000;      /* optional, so you can see the grid */
 }
